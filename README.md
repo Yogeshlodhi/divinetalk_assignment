@@ -50,4 +50,4 @@ Integrating Astrology Data: Integrating astrology data from external APIs was tr
 Responsive Layouts: Ensuring that the layout remained consistent across various screen sizes was a challenge. We utilized Tailwind's responsive utilities to implement a flexible, mobile-first design.
 
 ### 6. Website 
-The website is finally live on [Divinetalk-Astrology](http://localhost:3000/astrologers)
+The website is finally live on [Divinetalk-Astrology](https://divinetalk-fr94mba8c-jerrys-projects-825ed6bc.vercel.app/)
