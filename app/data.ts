@@ -63,6 +63,18 @@ export const AstroLogersData: AstrologerType[] = [
     },
     {
         id: 6,
+        name: "Ravi",
+        image: "/astro9.webp",
+        rating: 4.4,
+        specialization: ["Vedic", "Numerology"],
+        languages: ["English", "Hindi", "Bengali"],
+        experience: 6,
+        charge: 280,
+        discount: 50,
+        status: false,
+    },
+    {
+        id: 7,
         name: "Rajeev",
         image: "/astro6.png",
         rating: 4.6,
@@ -74,9 +86,9 @@ export const AstroLogersData: AstrologerType[] = [
         status: true,
     },
     {
-        id: 7,
+        id: 8,
         name: "Priya",
-        image: "/astro7.png",
+        image: "/astro9.webp",
         rating: 4.8,
         specialization: ["Numerology", "Palmistry"],
         languages: ["Hindi", "Punjabi"],
@@ -86,21 +98,9 @@ export const AstroLogersData: AstrologerType[] = [
         status: false,
     },
     {
-        id: 8,
-        name: "Ravi",
-        image: "/astro8.png",
-        rating: 4.4,
-        specialization: ["Vedic", "Numerology"],
-        languages: ["English", "Hindi", "Bengali"],
-        experience: 6,
-        charge: 280,
-        discount: 50,
-        status: false,
-    },
-    {
         id: 9,
         name: "Maya",
-        image: "/astro9.png",
+        image: "/astro9.webp",
         rating: 4.9,
         specialization: ["Tarot", "Crystal Healing"],
         languages: ["Hindi", "English"],
@@ -114,22 +114,22 @@ export const AstroLogersData: AstrologerType[] = [
 export const navbarData: navLinkType[] = [
     {
         id: 1, 
-        link: '',
+        link: '/',
         name: 'Home'
     },
     {
         id: 2, 
-        link: 'services',
+        link: '/services',
         name: 'Services'
     },
     {
         id: 3, 
-        link: 'astrologers',
+        link: '/astrologers',
         name: 'Astrologers'
     },
     {
         id: 4, 
-        link: 'blogs',
+        link: '/blogs',
         name: 'Blogs'
     },
 ]
